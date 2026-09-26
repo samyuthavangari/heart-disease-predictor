@@ -1,0 +1,33 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Firebase service credentials (CRITICAL: NEVER COMMIT)
+firebase-service-account-key.json
+*.json.key
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# SQLite Database
+database.db
+*.db
+*.sqlite3
+
+# Node modules
+node_modules/
+
+# Uploaded documents
+uploads/*
+!uploads/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
